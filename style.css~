@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: #eeeeee;
+	list-style: none;
+	text-decoration: none;
+	font-family: Helvetica, sans-serif;
+} 
+ 
+ header{
+    width: 100%;
+    height: 140px;
+    background-color: #eeeeee;
+    display: block;
+    margin: 0 auto;
+}
+header .inner-header {
+    height: 100%;
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 0 auto;
+}
+
+header .logo-container {
+	display: table;
+	height: 100%;
+	float: left;
+	padding-left: 30px;
+	}
+header .logo-container a{
+display: table-cell;
+height: 100%;
+vertical-align: middle;
+	
+}
+header .navigation {
+	height: 100%;
+	float: left;
+	font-size: 20px;
+	
+}
+header .navigation a{
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0px 40px;
+}
+header .navigation a li{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+}
+
+header .search-wrapper{
+	display: table;
+	height: 100%;
+	float: left;
+	padding: 40px 20px;
+}
+header .search-wrapper input[type=search]{
+	display: table-cell;
+	vertical-align: middle;
+	border: none;
+	background-color: #eeeeee;
+	font-size: 20px;
+	padding: 20px 30px;
+}
+header .log-in-wrapper{
+	display: table;
+	float: right;
+	height: 100%;
+	padding: 0px 20px;
+}
+header .log-in-wrapper button{
+	background-color: limegreen;
+	color: white;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	border: none;
+	padding: 16px 32px;
+	margin: 40px 10px;
+	font-size: 20px;
+	font-weight: 600;
+}
+body .container{
+
+height: 500px;
+position: relative;
+
+}
+
+body .container img{
+	width: 100%;
+	height: 100%;
+	transform: scaleX(-1);
+}
+body .container .motto{
+font-size: 50px;
+color: white;
+position: absolute;
+bottom: 30%;
+left: 10%;
+background: none;
+font-weight: 900;
+}
+body .container button{
+	background-color: limegreen;
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	bottom: 15%;
+	left: 10%;
+	padding: 20px 20px;
+	font-weight: 600;
+	border: none;
+	border-radius: 20px;
+}
+body .ignited{
+
+	width: 100%;
+	
+
+}
+body .ignited h2{
+
+	color: limegreen;
+	font-size: 40px;
+	font-weight: 600;
+	text-align: center;
+	padding: 20px 20px;
+}
+body .ignited p{
+	text-align: center;
+		padding: 20px 20px;
+}
+body .about-text h2{
+color: limegreen;
+	font-size: 40px;
+	font-weight: 600;
+	text-align: left;
+	padding: 20px 20px;
+}
+body .about-text p{
+	font-size: 18px;
+	margin: 20px 40px;
+}
+body .contact-txt h1{
+	font-size: 48px;
+	color: darkgray;
+	padding-left: 160px;
+}
+body .contact-txt p{
+	text-align: left;
+	font-size: 32px;
+	padding-left: 200px;
+
+}
+body .supportcontainer button{
+	background-color: limegreen;
+	color: white;
+	font-size: 20px;
+	padding: 20px 20px;
+	font-weight: 600;
+	border: none;
+	border-radius: 20px;
+	margin: 20px 200px;
+
+
+
+
+
+
+

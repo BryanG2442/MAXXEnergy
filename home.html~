@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MAXX Energy</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <header>
+        <div class="inner-header">
+			<div class="logo-container">
+				<a href="index.html"><h1>MAXX</h1></a> 
+			</div>
+            
+
+			<ul class="navigation">
+            <a><li>My Account</li></a>
+            <a><li>Plans</li></a>
+            <a><li>Savings</li></a>
+            <a href="about.html"><li>About Us</li></a>
+            </ul>
+          
+          <div class="search-wrapper">
+          <input type="search" id="tsearch" name="tsearch" placeholder="Search...">
+         </div>
+              <div class="log-in-wrapper">
+			        <button type="button">Log In</button>
+        
+       		 </div>
+            
+        </div>
+      
+       
+   </header>
+    <body>
+		<div class="container">
+		<img src="images/pexels-photo-10130749.jpeg" alt="Electric Workers" >
+		<div class="motto">Keeping You<br>Connected</div>
+		<button type="button">Pay My Bill</button>
+		
+		</div>
+    	<div class="ignited">
+		<h2>Stay Ignited</h2>    	
+    	<p>MAXX is dedicated to keeping the<br>country running one space at a time</p>
+    	</div>
+    	
+
+    
+    </body>
+
+
+
+
+</html>

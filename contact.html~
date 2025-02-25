@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+ <head>
+        <title>About</title>
+        
+        
+ <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedHeader").load("header.html"); 
+    });
+    </script>         
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<header id="includedHeader">
+
+
+</header>
+
+<body>
+<div class="contact-txt">
+<h1>Questions?</h1>
+<p>We're here to help. Please contact us if you <br>
+have any questions about services. You can <br>
+also view our FAQ.</p>
+
+
+</div>
+<div class="supportcontainer">
+<button> View Support FAQ</button>
+</div>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>
