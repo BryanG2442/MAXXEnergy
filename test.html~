@@ -7,7 +7,7 @@
 </head>
 <body>
   <div id="header"></div>
-  <!-- Main content of the page -->
+
   <div id="footer"></div>
 
   <script>

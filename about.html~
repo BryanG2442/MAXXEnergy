@@ -3,21 +3,10 @@
  <head>
         <title>About</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-        
- <script src="jquery.js"></script> 
-    <script> 
-    $(function(){
-      $("#includedHeader").load("header.html"); 
-    });
-    </script>         
-        
     </head>
-<header>
-<div id="includedHeader"></div>
-<html-include src="header.html">
+  <div id="header"></div>
 
 
-</header>
 <body>
 
     <?php include "./header.html" ?>
@@ -60,7 +49,8 @@ culpa qui officia deserunt mollit anim id est laborums </p>
 
 
 </div>
-
+  <div id="footer"></div>
 </body>
+
 
 </html>

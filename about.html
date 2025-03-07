@@ -3,20 +3,26 @@
  <head>
         <title>About</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-        
- <script src="jquery.js"></script> 
-    <script> 
-    $(function(){
-      $("#includedHeader").load("header.html"); 
-    });
-    </script>         
-        
     </head>
-<header id="includedHeader">
+  <div id="header"></div>
 
 
-</header>
 <body>
+ <script>
+    // Load header
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('header').innerHTML = data;
+      });
+
+    // Load footer
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+  </script>
 
     <?php include "./header.html" ?>
     <div class="about-text">
@@ -58,7 +64,8 @@ culpa qui officia deserunt mollit anim id est laborums </p>
 
 
 </div>
-
+  <div id="footer"></div>
 </body>
+
 
 </html>
